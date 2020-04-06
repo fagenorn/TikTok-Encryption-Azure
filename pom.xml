@@ -131,8 +131,8 @@
 				<version>1.6.0</version>
 				<configuration>
 					<schemaVersion>V2</schemaVersion>
-					<resourceGroup>gs-spring-boot-24442444-rg</resourceGroup>
-					<appName>gs-spring-boot-24442444</appName>
+					<resourceGroup>TikTok.Web</resourceGroup>
+					<appName>tiktok-encryption-spring-boot-app</appName>
 					<region>eastus</region>
 					<pricingTier>B1</pricingTier>
 					<runtime>
