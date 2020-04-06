@@ -22,8 +22,9 @@ import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 public class TiktokApplication {
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder().sources(TiktokApplication.class).resourceLoader(new JarResourceLoader())
-				.run(args);
+		SpringApplicationBuilder application = new SpringApplicationBuilder().sources(TiktokApplication.class)
+				.resourceLoader(new JarResourceLoader());
+		application.run(args);
 	}
 
 	@Bean
