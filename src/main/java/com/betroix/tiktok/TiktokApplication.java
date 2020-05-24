@@ -32,7 +32,7 @@ public class TiktokApplication {
 		CommonsPool2TargetSource commonsPoolTargetSource = new CommonsPool2TargetSource();
 		commonsPoolTargetSource.setTargetBeanName("emulatorService");
 		commonsPoolTargetSource.setTargetClass(IEmulatorService.class);
-		commonsPoolTargetSource.setMaxSize(3);
+		commonsPoolTargetSource.setMaxSize(5);
 		return commonsPoolTargetSource;
 	}
 
